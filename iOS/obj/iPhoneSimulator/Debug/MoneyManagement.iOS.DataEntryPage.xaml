@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Entry Data" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MoneyManagement.DataEntryPage">
+	<ContentPage.Content>
+
+		<StackLayout Margin="5,10,5,0" Orientation="Vertical" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand">
+
+			<StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+				<Label Text="Subject :" HorizontalOptions="Fill"/>
+				<Entry Placeholder="Enter Subject" x:Name="subject" HorizontalOptions="Fill"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+				<Label Text="Amount :"/>
+				<Entry Placeholder="Enter Amount" x:Name="amount"/>
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+				<Button Text="Save" HorizontalOptions="Fill"/>		
+				<Button Text="Sync" HorizontalOptions="Fill"/>
+			</StackLayout>
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

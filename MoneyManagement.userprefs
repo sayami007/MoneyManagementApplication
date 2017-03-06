@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="{64225F47-2E55-40B1-984E-82C78C9D5F0C}|Default">
+  <MonoDevelop.Ide.ItemProperties.MoneyManagement.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E0AE0F48-6BEB-48C8-968A-CCA3D5913999" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MoneyManagement.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MoneyManagement HideGettingStarted="True" />
+</Properties>

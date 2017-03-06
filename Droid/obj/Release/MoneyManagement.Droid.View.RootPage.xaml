@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MoneyManagement.RootPage">
+
+	<MasterDetailPage.Master>
+		<ContentView Title="Money Management">
+			<ContentView.Content>
+				<StackLayout Orientation="Vertical">
+						<Image/>
+						<Button Text="Entry Data"/>
+						<Button Text="Reports"/>
+						<Button Text="Exit"/>
+				</StackLayout>
+			</ContentView.Content>
+		</ContentView>
+		
+	</MasterDetailPage.Master>
+
+
+	<MasterDetailPage.Detail>
+	<ContentView Title="Money Management">
+			<ContentView.Content>
+				<StackLayout Orientation="Vertical">
+						<Image/>
+						<Button Text="Entry Data"/>
+						<Button Text="Reports"/>
+						<Button Text="Exit"/>
+				</StackLayout>
+			</ContentView.Content>
+		</ContentView>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>

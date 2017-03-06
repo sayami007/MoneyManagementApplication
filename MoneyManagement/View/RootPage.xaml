@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	MasterBehavior="Split"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MoneyManagement.RootPage">
+
+	<MasterDetailPage.Master>
+		<ContentPage Title="Master Page" BackgroundColor="White">
+			<ContentPage.Content>
+				<StackLayout Orientation="Vertical">
+						<Image Source="ic0n.png" WidthRequest="200" HeightRequest="200"/>
+						<StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="10,0,10,0">
+							<Image Source="icon.png" WidthRequest="20" HeightRequest="20"/>
+							<Button Text="Entry Data" Clicked="Data_Entry" HorizontalOptions="FillAndExpand"/>
+						</StackLayout>
+
+						<StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="10,0,10,0">
+							<Image Source="icon.png" WidthRequest="20" HeightRequest="20"/>
+							<Button Text="Reports" Clicked="Report_Display" HorizontalOptions="FillAndExpand"/>
+						</StackLayout>
+
+						<StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="10,0,10,0">
+							<Image Source="icon.png" WidthRequest="20" HeightRequest="20"/>
+							<Button Text="Exit" Clicked="Quit" HorizontalOptions="FillAndExpand"/>
+						</StackLayout>	
+				</StackLayout>
+			</ContentPage.Content>
+		</ContentPage>
+		
+	</MasterDetailPage.Master>
+
+
+	<MasterDetailPage.Detail>
+	<ContentPage>
+			<ContentPage.Content>
+			</ContentPage.Content>
+		</ContentPage>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>
